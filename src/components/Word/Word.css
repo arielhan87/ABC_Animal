@@ -1,5 +1,11 @@
 .word-container {
+  margin: 0;
   text-align: center;
   color: red;
   background-color: black;
+}
+
+.word-container h1 {
+  margin: 0;
+  padding: .7rem;
 }
