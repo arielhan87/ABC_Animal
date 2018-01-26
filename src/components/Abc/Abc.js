@@ -10,38 +10,41 @@ export class Abc extends React.Component {
   handleClick(e) {
     let value = e.target.value;
     this.props.chooseImage(value);
+    this.props.chooseWord(value);
   }
 
   render() {
     return (
-      <form onClick={this.handleClick} >
-        <input type="radio" name="src" value="fast" /> A
-        <input type="radio" name="src" value="slow" /> B
-        <input type="radio" name="src" value="cute" /> C
-        <input type="radio" name="src" value="eek" /> D
-        <input type="radio" name="src" value="fast" /> E
-        <input type="radio" name="src" value="slow" /> F
-        <input type="radio" name="src" value="cute" /> G
-        <input type="radio" name="src" value="eek" /> H
-        <input type="radio" name="src" value="fast" /> I
-        <input type="radio" name="src" value="slow" /> J
-        <input type="radio" name="src" value="cute" /> K
-        <input type="radio" name="src" value="eek" /> L
-        <input type="radio" name="src" value="fast" /> M
-        <input type="radio" name="src" value="slow" /> N
-        <input type="radio" name="src" value="cute" /> O
-        <input type="radio" name="src" value="eek" /> P
-        <input type="radio" name="src" value="eek" /> Q
-        <input type="radio" name="src" value="eek" /> R
-        <input type="radio" name="src" value="eek" /> S
-        <input type="radio" name="src" value="eek" /> T
-        <input type="radio" name="src" value="eek" /> U
-        <input type="radio" name="src" value="eek" /> V
-        <input type="radio" name="src" value="eek" /> W
-        <input type="radio" name="src" value="eek" /> X
-        <input type="radio" name="src" value="eek" /> Y
-        <input type="radio" name="src" value="eek" /> Z
-      </form>
+      <div className="scroll-bar">
+        <form onClick={this.handleClick} >
+          <input type="button" name="src" value="Aa" />
+          <input type="button" name="src" value="Bb" />
+          <input type="button" name="src" value="Cc" />
+          <input type="button" name="src" value="Dd" />
+          <input type="button" name="src" value="Ee" />
+          <input type="button" name="src" value="Ff" />
+          <input type="button" name="src" value="Gg" />
+          <input type="button" name="src" value="Hh" />
+          <input type="button" name="src" value="Ii" />
+          <input type="button" name="src" value="Jj" />
+          <input type="button" name="src" value="Kk" />
+          <input type="button" name="src" value="Ll" />
+          <input type="button" name="src" value="Mm" />
+          <input type="button" name="src" value="Nn" />
+          <input type="button" name="src" value="Oo" />
+          <input type="button" name="src" value="Pp" />
+          <input type="button" name="src" value="Qq" />
+          <input type="button" name="src" value="Rr" />
+          <input type="button" name="src" value="Ss" />
+          <input type="button" name="src" value="Tt" />
+          <input type="button" name="src" value="Uu" />
+          <input type="button" name="src" value="Vv" />
+          <input type="button" name="src" value="Ww" />
+          <input type="button" name="src" value="Xx" />
+          <input type="button" name="src" value="Yy" />
+          <input type="button" name="src" value="Zz" />
+        </form>
+      </div>
     );
   }
 }

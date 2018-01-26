@@ -1,0 +1,14 @@
+.scroll-bar {
+  background-color: brown;
+
+}
+
+input {
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: yellow;
+  padding: .3rem;
+  margin: .3rem;
+  background: transparent;
+}
